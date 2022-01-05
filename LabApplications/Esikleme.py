@@ -5,7 +5,7 @@ image = cv.cvtColor(origin,cv.COLOR_BGR2GRAY)
 #threshold(img , sınır , değer , function)
 
 ret  , thres1 = cv.threshold(image , 80,255,cv.THRESH_BINARY)
-ret1 , thres2 = cv.threshold(image , 852,255,cv.THRESH_BINARY_INV)
+ret1 , thres2 = cv.threshold(image , 85,255,cv.THRESH_BINARY_INV)
 ret2 , thres3 = cv.threshold(image , 120,255,cv.THRESH_TRUNC)
 ret3 , thres4 = cv.threshold(image , 200,255,cv.THRESH_TOZERO)
 ret4 , thres5 = cv.threshold(image , 120,255,cv.THRESH_TOZERO_INV)
